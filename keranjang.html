@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keranjang | Toko Bunga Hana</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  body {
+    background-color: #f9f9f9;
+    padding-top: 60px;
+  }
+  .cart-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+</style>
+</head>
+
+<body>
+    <nav class="navbar fixed-top" style="height:50px; background-color:#f8bbd0;">
+        <div class="container-fluid px-3 d-flex align-items-center">
+
+            <!-- Semisal dibaca, ini bu saya tombol kembalinya saya balikin ke buket bunga... belum bisa javascript :v -->
+            <a href="produk_bucket_bunga.html" class="btn btn-light btn-sm">
+            ❮ Kembali
+            </a>
+
+            <div class="mx-auto fw-bold">
+            🌸 Hana
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mb-5">
+        <h3 class="mb-4 fw-bold">🛒 Keranjang Belanja Toko Bunga Hana</h3>
+        <!-- Produk dikeranjang 1 -->
+        <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+            <div class="row align-items-center">
+                <div class="col-md-2 text-center">
+                <img src="Buket Bunga/1.mawar.jpg" class="img-fluid rounded cart-img">
+                </div>
+                <div class="col-md-4">
+                <h6 class="mb-1">Bucket Bunga Mawar Merah</h6>
+                <small class="text-muted">Rp 150.000</small>
+                </div>
+                <div class="col-md-3">
+                <div class="input-group input-group-sm">
+                    <button class="btn btn-outline-secondary">-</button>
+                    <input type="text" class="form-control text-center" value="1">
+                    <button class="btn btn-outline-secondary">+</button>
+                </div>
+                </div>
+                <div class="col-md-2 fw-semibold text-success">
+                Rp 150.000
+                </div>
+                <div class="col-md-1 text-end">
+                <button class="btn btn-sm btn-danger">✕</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Produk dikeranjang 2 -->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+            <div class="row align-items-center">
+                <div class="col-md-2 text-center">
+                <img src="Buket Bunga/2.melati.webp" class="img-fluid rounded cart-img">
+                </div>
+                <div class="col-md-4">
+                <h6 class="mb-1">Bucket Bunga Melati</h6>
+                <small class="text-muted">Rp 175.000</small>
+                </div>
+                <div class="col-md-3">
+                <div class="input-group input-group-sm">
+                    <button class="btn btn-outline-secondary">-</button>
+                    <input type="text" class="form-control text-center" value="1">
+                    <button class="btn btn-outline-secondary">+</button>
+                </div>
+                </div>
+                <div class="col-md-2 fw-semibold text-success">
+                Rp 175.000
+                </div>
+                <div class="col-md-1 text-end">
+                <button class="btn btn-sm btn-danger">✕</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Produk dikeranjang 3 -->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+            <div class="row align-items-center">
+                <div class="col-md-2 text-center">
+                <img src="Buket Bunga/3.peony.jpg" class="img-fluid rounded cart-img">
+                </div>
+                <div class="col-md-4">
+                <h6 class="mb-1">Bucket Bunga Peony</h6>
+                <small class="text-muted">Rp 220.000</small>
+                </div>
+                <div class="col-md-3">
+                <div class="input-group input-group-sm">
+                    <button class="btn btn-outline-secondary">-</button>
+                    <input type="text" class="form-control text-center" value="1">
+                    <button class="btn btn-outline-secondary">+</button>
+                </div>
+                </div>
+                <div class="col-md-2 fw-semibold text-success">
+                Rp 220.000
+                </div>
+                <div class="col-md-1 text-end">
+                <button class="btn btn-sm btn-danger">✕</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Detail -->
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="d-flex justify-content-between mb-2">
+                    <span>Total Produk</span>
+                    <strong>Rp 545.000</strong>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <span>Biaya Layanan</span>
+                    <strong>Rp 0</strong>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between mb-3 fs-5">
+                    <strong>Total Bayar</strong>
+                    <strong class="text-success">Rp 545.000</strong>
+                </div>
+                    <a href="pesan.html"><button class="btn btn-primary w-100">Checkout Sekarang</button></a>
+                </div>
+            </div>
+        </div>
+
+
+    <section id="footer" >
+        <nav class="navbar" style="background-color: #f8bbd0;">
+        <div class="container-fluid justify-content-center">
+            <span class="navbar-brand mb-0 h4" style="font-size: 12px;">Copyright &copy;2k25 Toko Bunga Hana</span>
+        </div>
+        </nav>
+    </section>
+</body>
+</html>
